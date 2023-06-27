@@ -1,4 +1,2 @@
-folium
-matplotlib
-plotly
 streamlit-folium
+folium
