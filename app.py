@@ -1,7 +1,5 @@
 import streamlit as st
 import common
-from streamlit_option_menu import option_menu
-
 
 common.page_config()
 # st.image("img/welcome.png")
