@@ -16,7 +16,7 @@ common.page_config()
 st.title("Map Visualization")
 st.text("지역급 의료시설은 초록색하트마커로, 권역급 의료시설은 빨간색별마커로 표시")
 
-df = common.get_dataset()
+df = common.get_data()
 # 초기 맵
 map_gyeonggi = folium.Map(location=[37.291887, 126.996340], zoom_start=10)
 

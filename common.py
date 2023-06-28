@@ -4,7 +4,7 @@ import numpy as np
 
 
 @st.cache_data
-def get_dataset():
+def get_data():
     df = pd.read_csv("hospital.csv", encoding='cp949')
 
     # 응급의료지원센터여부	전문응급의료센터여부
