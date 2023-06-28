@@ -15,7 +15,7 @@ def check_option(row) :
 
 # 초기맵 생성
 def create_map():
-    m = folium.Map(location=[37.291887, 126.996340], zoom_start=9)
+    m = folium.Map(location=[37.51148310935, 127.06033711446], zoom_start=9)
     return m
 
 
