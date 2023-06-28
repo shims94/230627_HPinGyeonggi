@@ -5,11 +5,11 @@ import common
 
 # 응급센터가 존재하는지 체크하는 함수
 def check_option(row) :
-    if row['응급의료지원센터여부'] == 'Y': return '응급의료지원센터'
-    elif row['전문응급의료센터여부'] == 'Y': return '전문응급의료센터'
-    elif row['전문응급센터전문분야'] == 'Y': return '전문응급센터전문분야'
-    elif row['권역외상센터여부'] == 'Y': return '권역외상센터'
-    elif row['지역외상센터여부'] == 'Y': return '지역외상센터'
+    if row['응급의료지원센터여부'] == 'Y': return '<b>응급의료지원센터</b>'
+    elif row['전문응급의료센터여부'] == 'Y': return '<b>전문응급의료센터</b>'
+    elif row['전문응급센터전문분야'] == 'Y': return '<b>전문응급센터전문분야</b>'
+    elif row['권역외상센터여부'] == 'Y': return '<b>권역외상센터</b>'
+    elif row['지역외상센터여부'] == 'Y': return '<b>지역외상센터</b>'
 
 common.page_config()
 
